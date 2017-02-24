@@ -34,8 +34,22 @@ nvm install 6
 
 ## WotLinker
 
-apt-get install build-essential
+	apt-get install build-essential
 
-git clone https://github.com/greyzlii/wotlinker.git 
-cd wotlinker/
-yarn
+	git clone https://github.com/greyzlii/wotlinker.git 
+	cd wotlinker/
+	yarn
+	
+    node index.js config --autoconf
+
+    update the config file (ex : ~/.config/duniter/duniter_neo4j/conf.json)
+     add your login/password in order to access to your database
+
+    "neo4j": {
+	   "user": "neo4j",
+	  "password": "password"
+	}
+
+
+    node index.js sync gtest.duniter.org 10900
+    node index.js neo4j
