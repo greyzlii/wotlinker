@@ -7,7 +7,7 @@ It can be used to perform analysis on the current and past wot.
 
 # Neo4j Data Model
 
-![Data Model Diagramm](https://raw.githubusercontent.com/greyzlii/wotlinker/master/docs/datamodel.jpg)
+![Data Model Diagramm](https://raw.githubusercontent.com/greyzlii/wotlinker/master/docs/Data_Model.jpg)
 
 
 # Installation notes 
